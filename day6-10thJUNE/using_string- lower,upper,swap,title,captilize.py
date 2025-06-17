@@ -1,0 +1,8 @@
+input_str=input("Enter the string: ")
+print(f"User entered string: {input_str}")
+print(input_str[::-1])
+print(input_str.lower())
+print(input_str.upper())
+print(input_str.swapcase())
+print(input_str.title())
+print(input_str.capitalize())

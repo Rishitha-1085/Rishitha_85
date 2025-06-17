@@ -1,0 +1,13 @@
+def display():
+    print("PROGRAMMING LANGUAGES : ")
+    print("Python")
+    print("Java")
+    print("SQL")
+    print("C")
+    print("C++")
+display()
+display()
+display()
+display()
+display()
+display()

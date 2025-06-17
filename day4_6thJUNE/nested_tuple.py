@@ -1,0 +1,5 @@
+Nested_tuple=((10,20),(30,40),(50,60))
+print(Nested_tuple)
+print(Nested_tuple[0])
+print(Nested_tuple[1])
+print(Nested_tuple[2])
