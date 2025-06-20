@@ -1,0 +1,3 @@
+list1=['boe','batch','of','2023']
+str1='@#'
+print(str1.join(list1))
