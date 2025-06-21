@@ -1,0 +1,25 @@
+'''write a program to find the GCD of given 2 numbers using recursion'''
+def rgcd(a,b):
+    if(a==b):
+        return a
+    if(a>b):
+        return rgcd(a-b,b) #recursive call-1
+    else:
+        return rgcd(a,b-a) #recursive call-2
+a,b=map(int,input().split()) 
+ans=rgcd(a,b)
+print(ans)
+
+
+
+'''
+# non Recursive program 
+a,b=map(int,input().split()) 
+while a!=b:
+    print(a,b)
+    if(a<b):
+        b=b-a
+    else:
+        a=a-b
+print(a) # or print(b) a,b both are same
+'''
